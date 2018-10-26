@@ -31,7 +31,6 @@ export const getDefaultIds = users =>
 export const sortByDefault = (users, ids) =>
   ids.reduce((acc, defaultId, i) => {
     const defaultUser = users.find(u => u.id === defaultId);
-    console.log("DEFAULT USER ", defaultUser);
     acc[i] = { ...defaultUser };
     return acc;
   }, []);
