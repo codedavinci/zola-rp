@@ -59,6 +59,19 @@
   background: greenyellow;
 }
 
+.filter-wrapper {
+  padding: 20px;
+}
+
+.filter-wrapper div {
+  font-size: 20px;
+}
+
+.filter {
+  width: 20px;
+  height: 20px;
+}
+
 .username {
   font-size: 16px;
   font-weight: bold;
