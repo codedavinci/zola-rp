@@ -5,6 +5,8 @@ const Card = ({ children }) => {
   return <div className="card">{children}</div>;
 };
 
-Card.propTypes = {};
+Card.propTypes = {
+  children: PropTypes.node.isRequired
+};
 
 export default Card;
