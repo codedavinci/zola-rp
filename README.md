@@ -1,6 +1,6 @@
-# ehcdsmusic
+# grid-zola
 
-Music search app - Basic integration with Spotify's plublic API
+Basic Grid with with filters
 
 ### Getting Started
 
